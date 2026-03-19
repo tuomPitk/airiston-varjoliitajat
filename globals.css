@@ -252,7 +252,7 @@ strong {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-image: url('assets/images/hero.webp');
+  background-image: url('assets/images/hero.jpg');
   background-size: cover;
   background-position: center;
   background-color: #1a2e28;
@@ -679,40 +679,16 @@ strong {
   }
 
   .nav-links {
-    display: none;
-    position: fixed;
-    top: var(--nav-height);
-    left: 0;
-    right: 0;
-    background-color: #ffffff;
-    flex-direction: column;
-    align-items: stretch;
-    padding: 1rem var(--container-padding) 1.5rem;
-    gap: 0;
-    border-bottom: 1px solid rgba(0, 0, 0, 0.08);
-    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.07);
-  }
-
-  .nav-links.open {
     display: flex;
-  }
-
-  .nav-link {
-    padding: 0.9rem 0;
-    width: 100%;
-    border-bottom: 1px solid rgba(0, 0, 0, 0.06);
-    font-size: 1rem;
   }
 
   .nav-cta {
-    margin-top: 1rem;
-    width: 100%;
-    text-align: center;
-    padding: 0.85rem 1.5rem;
+    padding: 0.65rem 1.1rem;
+    font-size: 0.875rem;
   }
 
   .nav-toggle {
-    display: flex;
+    display: none;
   }
 
   .cards-grid {
