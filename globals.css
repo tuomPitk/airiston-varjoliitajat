@@ -687,7 +687,7 @@ strong {
   position: relative;
   background-image: url('assets/images/flying.jpg');
   background-size: cover;
-  background-position: center calc(40% - 160px);
+  background-position: center;
   color: rgba(255, 255, 255, 0.95);
   padding: 5rem 0;
   text-align: center;
