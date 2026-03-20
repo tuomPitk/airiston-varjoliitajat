@@ -130,7 +130,7 @@ if (form && confirmation) {
 
   function showConfirmation() {
     if (window.goatcounter && window.goatcounter.count) {
-      window.goatcounter.count({ path: 'ilmoittautuminen', title: 'Ilmoittaudu-lomake lähetetty', event: true });
+      window.goatcounter.count({ path: 'ilmoittautuminen', title: 'Ilmoittautuminen', event: true });
     }
     form.hidden = true;
     confirmation.hidden = false;
