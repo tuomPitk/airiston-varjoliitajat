@@ -129,6 +129,9 @@ if (form && confirmation) {
   });
 
   function showConfirmation() {
+    if (window.goatcounter && window.goatcounter.count) {
+      window.goatcounter.count({ path: 'ilmoittautuminen', title: 'Ilmoittaudu-lomake lähetetty', event: true });
+    }
     form.hidden = true;
     confirmation.hidden = false;
     confirmation.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
